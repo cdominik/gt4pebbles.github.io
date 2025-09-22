@@ -1,9 +1,9 @@
 [![pages-build-deployment](https://github.com/astroflash-frb/astroflash-frb.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/astroflash-frb/astroflash-frb.github.io/actions/workflows/pages/pages-build-deployment)
 
-# AstroFlash Website
+# GT4Pebbles Website
 
-This is the repository that holds the [website of the AstroFlash group](https://astroflash-frb.github.io).
-Anyone with access to the `Astroflash-frb` repository should be able to push updates to this repository. And thus keep the website up to date.
+This is the repository that holds the [website of the GT4Pebbles group](https://cdominik/gt4pebbles.io or https://gt4pebbled.eu).
+Anyone with access to the `cdominik/gt4pebbles` repository should be able to push updates to this repository. And thus keep the website up to date.
 
 To keep the information up to date, **it is not needed to modify any of the .html files**. You will only need to create a new .yaml file inside the `posts/` or `team/` folder (to create a new blog post or add a new person in the group), plus a image file if appropriate. In the following this process is described in more detailed.
 
