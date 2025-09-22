@@ -34,8 +34,8 @@ def main(index_template='../templates/index_template.html', output_html='../inde
         #     for person in p.with_role(a_role):
         #         str_team += person.format_short_person()
 
-        # New code where, except Jason, now they are all shorted by surname
-        str_team += p.pop(name='Jason Hessels').format_short_person()
+        # New code where, except Carsten, now they are all shorted by surname
+        str_team += p.pop(name='Carsten Dominik').format_short_person()
         for person in p.researchers:
             if person.role != 'former':
                 str_team += person.format_short_person()
