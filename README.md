@@ -17,7 +17,7 @@ This is, in principle, done also automatically via an action in GitHub when push
 
 ### Writing a new post entry
 
-The [Latest Results blog section](https://astroflash-frb.github.io/blog.html) page is generated automatically after pushing new contents to the repository.
+The [Latest Results blog section](https://cdominik.github.io/gt4pebbles.github.io/blog.html) page is generated automatically after pushing new contents to the repository.
 
 The contents of the entries are located in the `posts` directory.
 To create a new post you would only need to create a single `yaml` file in there with the contents of the post (use the `template.yaml`, or any of the existing files, as a template). It is recommend to also include an image file in the same directory, linked in the post, to be used as header image for it. For simplicity, you can keep the same name as for the post .yaml file.
@@ -64,9 +64,9 @@ This is the tree of all important files in the repository:
 
 - `actions/` - the folder containing the Python scripts that populate the new content to the website.
 - `posts/` - the folder containing all posts from the blog.
-- `team/` - the folder containing all members of the AstroFlash team as individual files.
+- `team/` - the folder containing all members of the GT4Pebbles team as individual files.
 - `templates/` - the folder containing the `html` files of the pages that get modified automatically (`blog`, `team`, `index`).
-- `contact.html` - page showing the institutes involved in the AstroFlash project and a contact.
+- `contact.html` - page showing the institutes involved in the GT4Pebbles project and a contact.
 - `images/` - the folder with standard images used in the website (e.g. the favicon and logo and header pictures).
 - `404.html` - the standard Not Found page to show if the user goes to an invalid url.
 - `README.md` - this file that you are reading right now.
@@ -83,5 +83,5 @@ Their corresponding files under `templates/` (`blog_template.html`, `index_templ
 
 In GitHub, there is one action that runs automatically after every pull request or repository push:
 - Launches the snakemake file to check if there have been modified (or new) files and then it populates them into the necessary files (e.g. creating new blog posts, people for the team, and updating all .html files).
-- Finally, the GitHub automatic action that populates the repository into the [visible website](https://astroflash-frb.github.io). If something fails or gets wrong, the website will kept the latest working version of the repository.
+- Finally, the GitHub automatic action that populates the repository into the [visible website](https://https://cdominik.github.io/gt4pebbles.github.io). If something fails or gets wrong, the website will kept the latest working version of the repository.
 
